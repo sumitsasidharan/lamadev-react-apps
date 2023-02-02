@@ -61,7 +61,8 @@ const Add = () => {
             <Box
                width={400}
                height={300}
-               bgcolor="white"
+               bgcolor={'background.default'}
+               color={'text.primary'}
                p={3}
                borderRadius={2}>
                <Typography variant="h6" color="gray" textAlign="center">
@@ -97,10 +98,9 @@ const Add = () => {
                   variant="contained"
                   aria-label="outlined primary button group">
                   <Button>Post</Button>
-                  <Button sx={{ width: "100px"}} >
+                  <Button sx={{ width: '100px' }}>
                      <DateRangeIcon />
                   </Button>
-                  
                </ButtonGroup>
             </Box>
          </StyledModal>
