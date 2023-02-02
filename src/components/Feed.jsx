@@ -12,4 +12,3 @@ const Feed = () => {
 };
 
 export default Feed;
-// 5.49
